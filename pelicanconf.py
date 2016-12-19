@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
 
-# Site development flag
-DEVELOPING_SITE = True
-
-DELETE_OUTPUT_DIRECTORY = True
-
-
 # ------------------
 # Site information
 # ------------------
@@ -29,6 +23,8 @@ GOOGLE_ANALYTICS = ''
 # ---------------
 # Site building
 # ---------------
+DELETE_OUTPUT_DIRECTORY = True
+
 # Theme
 THEME = 'theme'
 
@@ -41,12 +37,20 @@ PAGE_SAVE_AS = '{slug}/index.html'
 STATIC_PATHS = ['.htaccess', 'robots.txt', 'files']
 READERS = {'html': None}  # Don't parse HTML files
 
-# Feed generation is usually not desired when developing
+# No feeds
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+# None of these pages
+AUTHOR_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
+ARCHIVES_SAVE_AS = ''
+TAGS_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
+
 
 # ------------
 # Site items
@@ -61,20 +65,15 @@ PLUGIN_PATHS = ['plugins']
 PLUGINS = ['pelican-bootstrapify']
 
 
-# os.path.basename(os.path.dirname(y))
-
 # ---------------
 # Jinja filters
 # ---------------
 import jinja2
 import os
 
-# Remove <p>s surrounding Markdown output
+# Get the final basename or directory name of a path
 def get_slug(url):
     slug = os.path.basename(os.path.dirname(url))
     return slug
 
 JINJA_FILTERS = {'get_slug': get_slug}
-
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True

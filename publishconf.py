@@ -1,6 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+#!/usr/bin/env python3
 
 # This file is only used if you use `make publish` or
 # explicitly specify it as your config file.
@@ -12,9 +10,6 @@ from pelicanconf import *
 
 SITEURL = 'http://www.scripturesoftherestoration.org'
 RELATIVE_URLS = False
-
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
