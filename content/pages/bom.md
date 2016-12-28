@@ -4,7 +4,7 @@ Modified: 2016-12-18 17:49:44
 Template: page
 Slug: bom
 
-Resources, etc.
+There are many excellent resources to help with your study of the Book of Mormon this year. **[Check out the full list here](/resources/#the-book-of-mormon).**
 
 ---
 

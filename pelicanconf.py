@@ -55,9 +55,10 @@ CATEGORIES_SAVE_AS = ''
 # ------------
 # Site items
 # ------------
-MENUITEMS = [('Book of Mormon', '/bom/'),
-             ('Doctrine and Covenants', '/dc/'),
-             ('Book of Mormon Highlights', '/bom-highlights/')]
+MENUITEMS = [('Doctrine and Covenants', '/dc/'),
+             ('Book of Mormon', '/bom/'),
+             ('Book of Mormon Highlights', '/bom-highlights/'),
+             ('Resources', '/resources/')]
 
 DEFAULT_PAGINATION = False
 

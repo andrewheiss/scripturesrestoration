@@ -4,7 +4,7 @@ Modified: 2016-12-18 17:51:59
 Template: page
 Slug: bom-highlights
 
-Resources, etc.
+Read the highlights of the Book of Mormon, [selected by *The Friend* in 2012](https://www.lds.org/friend/2012/01/book-of-mormon-feast).
 
 ---
 

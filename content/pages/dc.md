@@ -1,10 +1,12 @@
 Title: Doctrine and Covenants reading schedule
 Date: 2016-12-18
-Modified: 2016-12-18 17:51:59
+Modified: 2016-12-28 12:53:30
 Template: page
 Slug: dc
 
-Resources, etc.
+There are many excellent resources to help with your study of the Doctrine and Covenants this year, including [a new Church publication that puts each of the revelations into historical context](https://history.lds.org/article/revelations-in-context-index). 
+
+**[Check out the full list of resources](/resources/#the-doctrine-and-covenants).**
 
 ---
 
