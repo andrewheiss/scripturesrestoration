@@ -65,6 +65,8 @@ DEFAULT_PAGINATION = False
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['pelican-bootstrapify']
 
+MD_EXTENSIONS = ['toc', 'extra']
+
 
 # ---------------
 # Jinja filters
