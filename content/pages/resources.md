@@ -1,6 +1,7 @@
 Title: Helpful resources for studying the scriptures
 Date: 2016-12-28
 Modified: 2016-12-28 12:49:03
+Excerpt: Deepen your study of the scriptures of the restoration with these helpful additional resources.
 Template: resources
 Slug: resources
 

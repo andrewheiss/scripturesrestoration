@@ -1,6 +1,7 @@
 Title: Book of Mormon highlights reading schedule
 Date: 2016-12-18
 Modified: 2016-12-18 17:51:59
+Excerpt: Read the highlights of the Book of Mormon in one year with this reading schedule.
 Template: page
 Slug: bom-highlights
 

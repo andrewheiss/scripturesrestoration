@@ -65,7 +65,12 @@ DEFAULT_PAGINATION = False
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['pelican-bootstrapify']
 
-MD_EXTENSIONS = ['toc', 'extra']
+MD_EXTENSIONS = {
+    'markdown.extensions.smarty': {},
+    'markdown.extensions.extra': {},
+    'markdown.extensions.toc': {},
+    'markdown.extensions.meta': {}
+}
 
 STATIC_PATHS = ['favicon.ico']
 

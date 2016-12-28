@@ -1,6 +1,7 @@
 Title: Book of Mormon reading schedule
 Date: 2016-12-18
 Modified: 2016-12-18 17:49:44
+Excerpt: Read the Book of Mormon in one year with this reading schedule.
 Template: page
 Slug: bom
 

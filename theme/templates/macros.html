@@ -1,0 +1,13 @@
+{% macro open_graph(sitename, author, title, url, description) -%}
+    <meta property="og:site_name" content="{{ sitename }}"/>
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:author" content="{{ author }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ url }}" />
+    <meta property="og:image" content="{{ url }}theme/favicon-196x196.png" />
+    <meta property="og:description" content="{{ description }}" />
+{%- endmacro %}
+
+{% macro meta_description(description) -%}
+    <meta name="description" content="{{ description }}">
+{%- endmacro %}

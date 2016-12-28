@@ -1,6 +1,7 @@
 Title: Doctrine and Covenants reading schedule
 Date: 2016-12-18
 Modified: 2016-12-28 12:53:30
+Excerpt: Read the Doctrine and Covenants and Pearl of Great Price in one year with this reading schedule.
 Template: page
 Slug: dc
 

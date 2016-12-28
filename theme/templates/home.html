@@ -1,6 +1,20 @@
 {% extends "base.html" %}
+{% import "macros.html" as meta %}
 
 {% set page_class = 'home' %}
+{% set url = SITEURL + '/' %}
+
+{% block meta_tags %}
+    {{ meta.meta_description(page.excerpt | striptags) }}
+{% endblock meta_tags %}
+
+{% block social_meta %}
+    {{ meta.open_graph(SITENAME, AUTHOR, page.title, url, page.excerpt | striptags) }}
+{% endblock social_meta %}
+
+{% block canonical_rel %}
+    <link rel="canonical" href="{{ url }}">
+{% endblock %}
 
 {% block content %}
     <div class="jumbotron">
