@@ -11,6 +11,8 @@
     <link href="/theme/bootstrap-3.3.7-dist/css/bootstrap.flatly.min.css" rel="stylesheet">
     <!-- <link href="/theme/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet"> -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,13 +21,28 @@
     <![endif]-->
     <style type="text/css">
         body {
-          padding-top: 70px;
-          padding-bottom: 30px;
+          padding-top: 75px; 
+        }
+
+        body.home {
+          padding-top: 60px;
+        }
+
+        .scriptures-content h2 {
+          padding-top: 60px;
+          margin-top: -50px;
+        }
+
+        .scriptures-footer {
+          background-color: #2c3e50;
+          margin-top: 60px;
+          padding-top: 50px;
+          padding-bottom: 50px;
+          color: #ffffff;
         }
     </style>
   </head>
-  <body>
-    <!-- Fixed navbar -->
+  <body class="{{page_class}}">
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -35,7 +52,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">{{SITENAME}}</a>
+          <a class="navbar-brand" style="margin-top: -14px" href="/">
+            <img style="max-width: 50px; display: inline-block;" src="/theme/img/icon_small@2x.png">
+            <span class="visible-xs-inline-block">{{SITENAME}}</span>
+          </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -47,12 +67,26 @@
                 {% endif %}
                 {% endfor %}
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
 
-    {% block content %}
-    {% endblock %}
+    <div class="scriptures-content">
+      {% block content %}
+      {% endblock %}
+    </div>
+
+    <footer class="scriptures-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Reading schedules adapted from: <a href="http://www.jonfullmer.com/schedules/">Doctrine and Covenants</a> | <a href="http://www.ldsscripturetools.com/plan.php">Book of Mormon</a> | <a href="https://www.lds.org/friend/2012/01/book-of-mormon-feast">Book of Mormon Highlights</a></p>
+            <p>This resource was created for the Durham 2nd ward&rsquo;s 2017 goal to focus on studying the scriptures of the restoration and is not officially affiliated with the Church of Jesus Christ of Latter-day Saints.<p>
+            <p>Site content <i class="fa fa-creative-commons" aria-hidden="true"></i> <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><br><i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/andrewheiss/scripturesrestoration/">code</a> | <a href="https://github.com/andrewheiss/scripturesrestoration/blob/master/LICENSE">MIT License</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

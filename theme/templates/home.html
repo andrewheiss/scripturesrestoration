@@ -3,32 +3,42 @@
 {% set page_class = 'home' %}
 
 {% block content %}
-    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>{{SITENAME}}</h1>
-        {{ page.content }}
+          <div class="row">
+              <div class="col-xs-8 col-md-9 col-lg-10">
+                <h1>{{SITENAME}}</h1>
+                {{ page.content }}
+              </div>
+              <div class="col-xs-4 col-md-3 col-lg-2 pull-right">
+                <img src="/theme/img/icon_large@2x.png" class="img-responsive">
+              </div>
+          </div>
       </div>
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>The Book of Mormon</h2>
-          <p>Read the entire Book of Mormon this year.</p>
-          <p><a class="btn btn-default" href="/bom/" role="button">View schedule &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <h2>The Doctrine and Covenants</h2>
-          <p>Read the entire Doctrine and Covenants and Pearl of Great Price this year.</p>
-          <p><a class="btn btn-default" href="/dc/" role="button">View schedule &raquo;</a></p>
+          <div class="btn-group btn-group" role="group">
+            <a class="btn btn-primary" href="/dc/" role="button">Schedule</a>
+            <a class="btn btn-default" href="/resources/#the-doctrine-and-covenants" role="button">Resources</a>
+          </div>
        </div>
-        <div class="col-md-4">
+        <div class="col-sm-4">
+          <h2>The Book of Mormon</h2>
+          <div class="btn-group btn-group" role="group">
+            <a class="btn btn-primary" href="/bom/" role="button">Schedule</a>
+            <a class="btn btn-default" href="/resources/#the-book-of-mormon" role="button">Resources</a>
+          </div>
+        </div>
+        <div class="col-sm-4">
           <h2>Book of Mormon Highlights</h2>
-          <p>Read the highlights of the Book of Mormon this year.</p>
-          <p><a class="btn btn-default" href="/bom-highlights/" role="button">View schedule &raquo;</a></p>
+          <div class="btn-group btn-group" role="group">
+            <a class="btn btn-primary" href="/bom-highlights/" role="button">Schedule</a>
+          </div>
         </div>
       </div>
-    </div> <!-- /container -->
+    </div> 
 {% endblock %}

@@ -6,3 +6,6 @@ __pycache__/*
 cache/*
 output/*
 plugins/*
+
+# Binary stuff
+graphics/*
