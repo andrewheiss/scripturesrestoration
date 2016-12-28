@@ -67,6 +67,8 @@ PLUGINS = ['pelican-bootstrapify']
 
 MD_EXTENSIONS = ['toc', 'extra']
 
+STATIC_PATHS = ['favicon.ico']
+
 
 # ---------------
 # Jinja filters
