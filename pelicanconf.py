@@ -4,7 +4,7 @@
 # Site information
 # ------------------
 AUTHOR = 'Durham 2nd Ward'
-SITENAME = 'The Scriptures of the Restoration'
+SITENAME = 'Scriptures of the Restoration'
 DESCRIPTION = ''
 SITEURL = ''
 
