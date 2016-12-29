@@ -16,7 +16,7 @@ Slug: resources
 
 ## The Doctrine and Covenants
 
-- **[Revelations in Context](https://history.lds.org/article/revelations-in-context-index)**: The Doctrine and Covenants is a conversation between God and early members of the Church, but we only have God's side of the conversation written down. The Church's new *[Revelations in Context](https://history.lds.org/article/revelations-in-context-index)* book provides the missing history and context behind each of the sections.
+- ***[Revelations in Context](https://history.lds.org/article/revelations-in-context-index)***: The Doctrine and Covenants is a conversation between God and early members of the Church, but we only have God's side of the conversation written down. The Church's new *[Revelations in Context](https://history.lds.org/article/revelations-in-context-index)* book provides the missing history and context behind each of the sections.
 - **[Gospel Doctrine manual](https://www.lds.org/manual/doctrine-and-covenants-and-church-history-gospel-doctrine)**
 - **Gospel Topics essays:** The Church has published a [set of detailed essays](https://www.lds.org/topics) about more difficult topics in Church history. These in particular are most relevant to studying the Doctrine and Covenants:
     - [First Vision Accounts](https://www.lds.org/topics/first-vision-accounts)

@@ -9,6 +9,8 @@ There are many excellent resources to help with your study of the Book of Mormon
 
 ---
 
+[Download a printable schedule](/files/book-of-mormon.pdf).
+
 
 | Dates                     | Reading                                         |
 |:--------------------------|:------------------------------------------------|

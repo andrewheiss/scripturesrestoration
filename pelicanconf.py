@@ -72,7 +72,7 @@ MD_EXTENSIONS = {
     'markdown.extensions.meta': {}
 }
 
-STATIC_PATHS = ['favicon.ico']
+STATIC_PATHS = ['files', 'favicon.ico']
 
 
 # ---------------

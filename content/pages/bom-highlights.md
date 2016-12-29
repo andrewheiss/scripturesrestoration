@@ -9,6 +9,8 @@ Read the highlights of the Book of Mormon, [selected by *The Friend* in 2012](ht
 
 ---
 
+[Download a printable schedule](/files/book-of-mormon-highlights.pdf).
+
 
 | Dates                     | Reading                                                       |
 |:--------------------------|:--------------------------------------------------------------|

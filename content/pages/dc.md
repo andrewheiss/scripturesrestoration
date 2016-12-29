@@ -11,6 +11,9 @@ There are many excellent resources to help with your study of the Doctrine and C
 
 ---
 
+[Download a printable schedule](/files/doctrine-and-covenants.pdf).
+
+
 | Dates                     | Reading                                           |
 |:--------------------------|:--------------------------------------------------|
 | January  1–January  7     | Introduction to the Doctrine and Covenants, D&C 1 |

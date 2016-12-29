@@ -9,3 +9,4 @@ plugins/*
 
 # Binary stuff
 graphics/*
+content/files/*
