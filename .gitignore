@@ -10,3 +10,6 @@ plugins/*
 # Binary stuff
 graphics/*
 content/files/*
+
+# Private stuff
+content/config.php
