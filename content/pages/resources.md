@@ -18,6 +18,7 @@ Slug: resources
 
 - ***[Revelations in Context](https://history.lds.org/article/revelations-in-context-index)***: The Doctrine and Covenants is a conversation between God and early members of the Church, but we only have God's side of the conversation written down. The Church's new *[Revelations in Context](https://history.lds.org/article/revelations-in-context-index)* book provides the missing history and context behind each of the sections.
 - [Church History Study Guide](https://history.lds.org/article/church-history-study-guide): The Church has also provided [useful historical context](https://history.lds.org/article/church-history-study-guide) for each of the lessons in the Gospel Doctrine manual.
+- [The Mormon Women Project Sunday School Supplements](https://www.mormonwomen.com/sunday-school-supplements/): The Mormon Women Project creates [supplements to each Sunday School lesson](https://www.mormonwomen.com/sunday-school-supplements/) using quotes, stories, and resources from women.
 - **[Gospel Doctrine manual](https://www.lds.org/manual/doctrine-and-covenants-and-church-history-gospel-doctrine)**
 - **Gospel Topics essays:** The Church has published a [set of detailed essays](https://www.lds.org/topics) about more difficult topics in Church history. These in particular are most relevant to studying the Doctrine and Covenants:
     - [First Vision Accounts](https://www.lds.org/topics/first-vision-accounts)
