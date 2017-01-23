@@ -11,7 +11,7 @@
 | February 12–February 18   | 2 Nephi 5–9                                     |
 | February 19–February 25   | 2 Nephi 10–13                                   |
 | February 26–March  4      | 2 Nephi 14–21                                   |
-| March  5–March 11         | 2 Nephi 23–26                                   |
+| March  5–March 11         | 2 Nephi 22–26                                   |
 | March 12–March 18         | 2 Nephi 27–31                                   |
 | March 19–March 25         | 2 Nephi 32–Jacob 4                              |
 | March 26–April  1         | Jacob 5–7                                       |
@@ -20,7 +20,7 @@
 | April 16–April 22         | Mosiah 4–8                                      |
 | April 23–April 29         | Mosiah 9–14                                     |
 | April 30–May  6           | Mosiah 15–19                                    |
-| May  7–May 13             | Mosiah 20–35                                    |
+| May  7–May 13             | Mosiah 20–25                                    |
 | May 14–May 20             | Mosiah 26–29                                    |
 | May 21–May 27             | Alma 1–3                                        |
 | May 28–June  3            | Alma 4–7                                        |
@@ -49,7 +49,7 @@
 | November  5–November 11   | 3 Nephi 21–27                                   |
 | November 12–November 18   | 3 Nephi 28–Mormon 1                             |
 | November 19–November 25   | Mormon 2–6                                      |
-| November 26–December  2   | Mormon 8–Ether 2                                |
+| November 26–December  2   | Mormon 7–Ether 2                                |
 | December  3–December  9   | Ether 3–7                                       |
 | December 10–December 16   | Ether 8–12                                      |
 | December 17–December 23   | Ether 13–Moroni 6                               |
