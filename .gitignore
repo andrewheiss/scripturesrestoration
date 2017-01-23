@@ -11,5 +11,9 @@ plugins/*
 graphics/*
 content/files/*
 
+# Other output
+chart_creation/reminders/*
+
 # Private stuff
 content/config.php
+.Rproj.user
