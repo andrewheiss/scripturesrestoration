@@ -77,6 +77,6 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 rsync_upload: publish
-	rsync -P -crzv --delete $(OUTPUTDIR)/ $(SSH_TARGET)
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
 
 .PHONY: html help clean regenerate serve serve-global devserver publish rsync_upload
