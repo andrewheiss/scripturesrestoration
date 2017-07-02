@@ -65,11 +65,14 @@ DEFAULT_PAGINATION = False
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['pelican-bootstrapify']
 
-MD_EXTENSIONS = {
-    'markdown.extensions.smarty': {},
-    'markdown.extensions.extra': {},
-    'markdown.extensions.toc': {},
-    'markdown.extensions.meta': {}
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.smarty': {},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.toc': {},
+        'markdown.extensions.meta': {}
+    },
+    'output_format': 'html5',
 }
 
 STATIC_PATHS = ['files', 'favicon.ico', 'config.php', 'p.php']
